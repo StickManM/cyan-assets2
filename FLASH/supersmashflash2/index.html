@@ -1,29 +1,29 @@
-<Module>
-
-
-<!-- Ultimate Game Stash file--> 
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
-
-
-
-<Module>
-<ModulePrefs title="Google.com" />
-<Content type="html"><![CDATA[
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css" type="text/css" />
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Super Smash Flash 2 - cyanide.</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+        window.onload = function() { // resize flash game to fit window
+            var game = document.getElementById("game");
+            var width = window.innerWidth;
+            var height = window.innerHeight;
+            game.style.width = width + "px";
+            game.style.height = height + "px";
+        }
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
 </head>
-<body>
-<script src="https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js"></script>
-
-<object width="100%" height="100%">
-    <param name="movie" value="https://cdn.jsdelivr.net/gh/KrMattsson/azurenaming@0d162ac92aa303b9fe7c30988877cb5025c7183a/Pages/ssf2-0.4a.swf">
-    <embed src="https://cdn.jsdelivr.net/gh/KrMattsson/azurenaming@0d162ac92aa303b9fe7c30988877cb5025c7183a/Pages/ssf2-0.4a.swf" width="100%" height="100%">
+<embed>
+    <embed id="game" src="https://cyan-assets2.vercel.app/FLASH/supersmashflash2/supersmashflash2.swf>
 </body>
 </html>
-</Content>
-</Module>
